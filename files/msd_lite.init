@@ -81,6 +81,7 @@ start_service() {
 }
 
 stop_service() {
+	service_stop $PROG
 	rm -rf "$CONFDIR"
 }
 
